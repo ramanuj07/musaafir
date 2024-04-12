@@ -10,7 +10,7 @@ import {
   
 
 export default function Search(){
-    return <div className="flex justify-end mr-20">
+    return <div className="flex justify-end mr-20 mb-96">
     
     <Card>
   <CardHeader>

@@ -1,5 +1,6 @@
 import Search from "./components/Input";
 import Navbar from "./components/Navbar";
+import Why from "./components/page2";
 
 function App() {
   return (
@@ -9,6 +10,9 @@ function App() {
       </div>
       <div className="my-16">
         <Search></Search>
+      </div>
+      <div>
+        <Why></Why>
       </div>
     </div>
   );
