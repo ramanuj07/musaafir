@@ -16,6 +16,11 @@ module.exports = {
         "2xl": "1400px",
       },
     },
+    colors:{
+      nude:"#EFE0DA",
+      bluee:"#008EC4",
+      nude2:"#D6C6C2"
+    },
     extend: {
       colors: {
         border: "hsl(var(--border))",

@@ -1,5 +1,5 @@
 import { Button } from "./ui/button";
-
+import logo from './logo.png';
 const Navbar = () => {
   const navItems = [
     {
@@ -18,14 +18,19 @@ const Navbar = () => {
 
   return (
     <nav className="grid grid-cols-12 items-center">
-      <div className="col-span-2">
+      <div className="flex col-span-2">
+      <div>
         <img
-          src="https://i.ytimg.com/vi/1ep16FrMfnc/mqdefault.jpg"
+          src={logo}
           alt="logo-img"
-          className="w-40 h-20"
+          className="w-20 h-20"
         />
+        
+      </div >
+      <div className="text-xl pt-4">
+      Musaafir
       </div>
-
+      </div>
       <div className="col-span-9 items-center justify-center flex">
         <ul className="flex gap-16">
           {navItems.map((item) => (
